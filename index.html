@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="color-scheme" content="only light">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kushal Tiwari– Data Scientist Portfolio</title>
   <!-- Google Fonts & Icons -->
@@ -16,6 +17,12 @@
       --muted: #9a8c98;
       --card-bg: #fff;
       --hero-gradient: linear-gradient(120deg, #6c63ff 60%, #ff6584 100%);
+      color-scheme: only light;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        color-scheme: only light;
+      }
     }
     * { box-sizing: border-box; }
     html {
